@@ -1,0 +1,37 @@
+body {
+    width: 100vw;
+    height: 100vh;
+   
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    box-shadow: 4px 4px 30px 10px rgba(229, 16, 16, 0.1);
+    
+
+}
+
+.calculator{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    width: fit-content;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+
+    
+}
+.input{
+    grid-column: 1/5;
+}
+
+.equal{
+    grid-column: 4;
+    grid-row: 3/7;
+    background-color: orange
+}
+
